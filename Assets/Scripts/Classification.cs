@@ -16,6 +16,7 @@ public class Classification : MonoBehaviour {
     public TextAsset labelMap;
     public TextAsset model;
 	public AudioSource audioSource;
+	public MessageBehavior messageBehavior;
 
 	private TFGraph graph;
 	private TFSession session;
@@ -58,6 +59,7 @@ public class Classification : MonoBehaviour {
 
 		audioSource.clip = Resources.Load ("imageNetSounds/" + label) as AudioClip;
 		audioSource.Play ();
+		messageBehavior.ShowMessage (label);
 	}
 
 	//stole from https://github.com/Syn-McJ/TFClassify-Unity

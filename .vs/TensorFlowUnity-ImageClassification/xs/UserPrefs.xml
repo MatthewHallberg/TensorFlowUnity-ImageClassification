@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Classification.cs">
     <Files>
-      <File FileName="Assets/Scripts/Classification.cs" Line="59" Column="78" />
+      <File FileName="Assets/Scripts/MessageBehavior.cs" Line="36" Column="25" />
+      <File FileName="Assets/Scripts/Classification.cs" Line="65" Column="58" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
